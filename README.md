@@ -22,7 +22,7 @@ It returns the following:
 }
 
 The jwtToken and refreshToken are signed with the secret key. The jwtToken will contain the username and the extra information sent, while the refreshToken will used for regenerate the token.
-POST /sessions/create
+POST /refresh-token
 
 You can do a POST to /refresh-token to get refresh token.
 
@@ -49,3 +49,6 @@ It returns the sample data.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 Heroku URL details
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
+1) https://jwt-authentication-node.herokuapp.com/login
+2) https://jwt-authentication-node.herokuapp.com/refresh-token
+3) https://jwt-authentication-node.herokuapp.com/user-data
